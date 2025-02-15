@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- 外圆 -->
+  <circle cx="256" cy="256" r="248" fill="#1C1917"/>
+  
+  <!-- 装饰圆环 -->
+  <circle cx="256" cy="256" r="230" stroke="white" stroke-width="2" stroke-opacity="0.1"/>
+  <circle cx="256" cy="256" r="210" stroke="white" stroke-width="1" stroke-opacity="0.1"/>
+  
+  <!-- 八卦装饰 -->
+  <g opacity="0.08">
+    <path d="M256 26 L256 486" stroke="white" stroke-width="1"/>
+    <path d="M26 256 L486 256" stroke="white" stroke-width="1"/>
+    <path d="M96.5 96.5 L415.5 415.5" stroke="white" stroke-width="1"/>
+    <path d="M415.5 96.5 L96.5 415.5" stroke="white" stroke-width="1"/>
+  </g>
+
+  <!-- 主体爻字 -->
+  <g transform="translate(256 256) rotate(-10) translate(-256 -256)">
+    <!-- 左侧装饰 -->
+    <path d="M150 140 Q130 256 150 372" stroke="white" stroke-width="8" stroke-linecap="round" fill="none" opacity="0.3"/>
+    
+    <!-- 右侧装饰 -->
+    <path d="M362 140 Q382 256 362 372" stroke="white" stroke-width="8" stroke-linecap="round" fill="none" opacity="0.3"/>
+    
+    <!-- 中心爻字 -->
+    <g>
+      <!-- 上横 -->
+      <path d="M156 176 H356" stroke="white" stroke-width="32" stroke-linecap="round"/>
+      <!-- 中横 -->
+      <path d="M156 256 H356" stroke="white" stroke-width="32" stroke-linecap="round"/>
+      <!-- 下横 -->
+      <path d="M156 336 H356" stroke="white" stroke-width="32" stroke-linecap="round"/>
+      
+      <!-- 左撇 -->
+      <path d="M186 146 L246 366" stroke="white" stroke-width="32" stroke-linecap="round"/>
+      <!-- 右捺 -->
+      <path d="M326 146 L266 366" stroke="white" stroke-width="32" stroke-linecap="round"/>
+    </g>
+  </g>
+</svg> 
