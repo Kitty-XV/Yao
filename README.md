@@ -1,17 +1,8 @@
-# 姚氏抽签
+# 爻
 
 一个优雅的在线抽签应用，提供传统抽签体验与现代交互设计的完美结合。
 
 🌐 在线演示：[yao.kitty15.top](https://yao.kitty15.top)
-
-## 功能特点
-
-- 🎯 传统抽签体验：基于传统抽签文化，提供详细的签文解释
-- 🌙 农历日期显示：自动显示当前农历日期
-- 🎨 优雅的界面设计：采用现代化UI设计，提供流畅的用户体验
-- 📱 响应式布局：完美支持移动端和桌面端
-- 📤 分享功能：支持生成精美的签文图片并分享
-- 🔗 永久链接：每个抽签结果都有唯一的永久链接
 
 ## 技术栈
 
@@ -77,12 +68,6 @@ src/
 - 支持生成精美的签文图片
 - 提供签文永久链接
 - 可通过二维码分享
-
-## 部署
-
-项目支持通过Vercel一键部署：
-
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/yourusername/yao-fortune)
 
 ## 许可证
 
